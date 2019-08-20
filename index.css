@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pesquisa-restaurante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(221, 221, 221,0.5);
+    padding-bottom: 13px;
+
+}
+.pesquisa-restaurante input {
+    background-color: rgba(221, 221, 221,0.5);
+    border: 0;
+    padding: 7px;
+    border-radius: 4px;
+    color: rgba(105, 105, 105, 0.849);
+
+}
+.pesquisa-restaurante button {
+    background-color: white;
+    border:0;
+    color: rgb(197, 0, 0);
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 14px;
+
+}
+.resultado-busca {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+ul.lista-restaurantes  {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+li.restaurante {
+    height: 100px;
+    display: flex;
+    border: 2px solid rgba(221, 221, 221,0.5);
+    border-radius: 4px;
+
+}
+.edit-logo {
+    width: 30%;
+    height: 100px;
+    border-right: 2px solid rgba(221, 221, 221,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.logo-restaurante {
+    width: 70px;
+}
+.informacoes-restaurantes {
+    padding: 10px;
+
+}
+.nome-restaurante {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+
+}
+.descricao-restaurante {
+    
+}
