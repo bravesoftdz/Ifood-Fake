@@ -57,14 +57,29 @@ li.restaurante {
 }
 .informacoes-restaurantes {
     padding: 10px;
-
 }
 .nome-restaurante {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(44, 44, 44);
 
 }
 .descricao-restaurante {
-    
+    font-size: 10px;
+    color: rgba(105, 105, 105, 0.849);
+}
+.nota {
+    color: rgba(216, 166, 1, 0.89);
+    font-size: 14px;
+}
+.estilo-rango {
+    padding: 7px;
+    color: rgba(95, 91, 91, 0.993);
+    font-size: 12px; 
+}
+.tempo-valor{
+    padding: 27px ;
+    margin-left: -30px; 
+    color: rgba(105, 105, 105, 0.849);
+    font-size: 11px;
 }
