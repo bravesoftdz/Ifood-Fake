@@ -1,100 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ifoodizeira</title>
-   <link rel="stylesheet" href="index.css">
-</head>
-<body> 
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
     <div class="pesquisa-restaurante">
-        <input type="search" placeholder=" Prato ou restaurante">
-        <button name="filtros"> Filtros </button> 
-    </div> <!-- Busca de restaurantes-->
+      <input type="search" placeholder=" Prato ou restaurante" />
+      <button name="filtros">Filtros</button>
+    </div>
+    <!-- Busca de restaurantes-->
     <div class="resultado-busca">
-        <h6>Restaurantes</h6>
-        <ul class="lista-restaurantes">
-            <li class="restaurante">
-                <div class="edit-logo">
-                    <img class="logo-restaurante" src="mateuslanches.png" alt="logo restaurante">
-                </div>
-                <div class="informacoes-restaurantes">
-                    <span class="nome-restaurante">Matheus Lanches</span>
-                    <div class="descricao-restaurante">
-                        <span class="nota">&#9733; 5,0 </span>
-                        <span class="estilo-rango"> - Lanches - 3,5 km</span>
-                        <div class="tempo-valor">
-                            <span class="tempo-entrega">30-60 min - R$8,00</span>
-                        </div>
-                    </div>
-                </div>
+      <h6>Restaurantes</h6>
+      <ul class="lista-restaurantes">
+        <li class="restaurante">
+          <div class="edit-logo">
+            <img
+              class="logo-restaurante"
+              src="mateuslanches.png"
+              alt="logo restaurante"
+            />
+          </div>
+          <div class="informacoes-restaurantes">
+            <span class="nome-restaurante">Matheus Lanches</span>
+            <div class="descricao-restaurante">
+              <span class="nota">&#9733; 5,0 </span>
+              <span class="estilo-rango"> - Lanches - 3,5 km</span>
+              <div class="tempo-valor">
+                <span class="tempo-entrega">30-60 min - R$8,00</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="restaurante">
+          <div class="edit-logo">
+            <img
+              class="logo-restaurante"
+              src="tropical.jpeg"
+              alt="logo restaurante"
+            />
+          </div>
+          <div class="informacoes-restaurantes">
+            <span class="nome-restaurante">Tropical Lanches</span>
+            <div class="descricao-restaurante">
+              <span class="nota">&#9733; 4,5 </span>
+              <span class="estilo-rango"> - Lanches - 2,0 km</span>
+              <div class="tempo-valor">
+                <span class="tempo-entrega">30-60 min - R$6,00</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="restaurante">
+          <div class="edit-logo">
+            <img
+              class="logo-restaurante"
+              src="gendai.png"
+              alt="logo restaurante"
+            />
+          </div>
+          <div class="informacoes-restaurantes">
+            <span class="nome-restaurante">Gendai</span>
+            <div class="descricao-restaurante">
+              <span class="nota">&#9733; 4,8 </span>
+              <span class="estilo-rango"> - Japonesa - 5,0 km</span>
+              <div class="tempo-valor">
+                <span class="tempo-entrega">20-50 min - R$8,00</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="restaurante">
+          <div class="edit-logo">
+            <img
+              class="logo-restaurante"
+              src="mama.jpeg"
+              alt="logo restaurante"
+            />
+          </div>
+          <div class="informacoes-restaurantes">
+            <span class="nome-restaurante">Pizzaria da Mama</span>
+            <div class="descricao-restaurante">
+              <span class="nota">&#9733; 3,5 </span>
+              <span class="estilo-rango"> - Pizzas - 3,5 km</span>
+              <div class="tempo-valor">
+                <span class="tempo-entrega">30-60 min - R$8,00</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--Resultados de pesquisa-->
 
+    <div class="menu"></div>
+    <!--Barra de menu-->
 
-            </li>
-        </ul>
-        <ul class="lista-restaurantes">
-            <li class="restaurante">
-                <div class="edit-logo">
-                    <img class="logo-restaurante" src="tropical.jpeg" alt="logo restaurante">
-                </div>
-                <div class="informacoes-restaurantes">
-                    <span class="nome-restaurante">Tropical Lanches</span>
-                    <div class="descricao-restaurante">
-                        <span class="nota">&#9733; 4,5 </span>
-                        <span class="estilo-rango"> - Lanches - 2,0 km</span>
-                        <div class="tempo-valor">
-                            <span class="tempo-entrega">30-60 min - R$6,00</span>
-                        </div>
-                    </div>
-                </div>
-
-
-            </li>
-        </ul>
-        <ul class="lista-restaurantes">
-            <li class="restaurante">
-                <div class="edit-logo">
-                    <img class="logo-restaurante" src="gendai.png" alt="logo restaurante">
-                </div>
-                <div class="informacoes-restaurantes">
-                    <span class="nome-restaurante">Gendai</span>
-                    <div class="descricao-restaurante">
-                        <span class="nota">&#9733; 4,8 </span>
-                        <span class="estilo-rango"> - Japonesa - 5,0 km</span>
-                        <div class="tempo-valor">
-                            <span class="tempo-entrega">20-50 min - R$8,00</span>
-                        </div>
-                    </div>
-                </div>
-
-
-            </li>
-        </ul>
-        <ul class="lista-restaurantes">
-            <li class="restaurante">
-                <div class="edit-logo">
-                    <img class="logo-restaurante" src="mama.jpeg" alt="logo restaurante">
-                </div>
-                <div class="informacoes-restaurantes">
-                    <span class="nome-restaurante">Pizzaria da Mama</span>
-                    <div class="descricao-restaurante">
-                        <span class="nota">&#9733; 3,5 </span>
-                        <span class="estilo-rango"> - Pizzas - 3,5 km</span>
-                        <div class="tempo-valor">
-                            <span class="tempo-entrega">30-60 min - R$8,00</span>
-                        </div>
-                    </div>
-                </div>
-
-
-            </li>
-        </ul>
-     </div> <!--Resultados de pesquisa-->
-     
-    <div class="menu"> </div> <!--Barra de menu-->
-
-
-    <script> </script>
-</body>
+    <script></script>
+  </body>
 </html>
