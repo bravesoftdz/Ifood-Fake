@@ -28,13 +28,12 @@ body {
 }
 .resultado-busca {
     padding-left: 10px;
-    padding-right: 10px;
-    
+    padding-right: 10px;    
 }
 ul.lista-restaurantes  {
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 3px;
     
 }
 li.restaurante {
@@ -42,6 +41,7 @@ li.restaurante {
     display: flex;
     border: 2px solid rgba(221, 221, 221,0.5);
     border-radius: 4px;
+    
 
 }
 .edit-logo {
